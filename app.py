@@ -3,9 +3,8 @@ import os
 from webex_bot.commands.echo import EchoCommand
 from webex_bot.webex_bot import WebexBot
 
-access_token = "Mjk5NWRiNmMtOTlmMS00YmMxLThmODYtYzc5N2ZmOWYzOTU3MTUwNGNiMzktNjBk_PF84_23ca4aef-6b69-48fc-8bbe-f59f190b5769"
-# access_token = os.getenv("WEBEX_TEAMS_ACCESS_TOKEN")
-approved_rooms = ['ce68dea0-42e4-11ee-8b81-23be9471d215']
+access_token = os.getenv("WEBEX_TEAMS_ACCESS_TOKEN")
+approved_rooms = ['8b6f5250-2e98-11ef-950d-13c0a7ecfeb4','ce68dea0-42e4-11ee-8b81-23be9471d215']
 
 
 # BOT 개체 만들기
