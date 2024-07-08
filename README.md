@@ -6,13 +6,23 @@
 
 > docker, docker-compose 설치된 환경
 
+- 처음 빌드 할때
+
 ```bash
 $ git clone https://github.com/ecs-telecom/rbot.git
 $ cd rbot
-$ docker build -t rbot:v1 . 
-$ docker image inspect rbot:v1
-$ docker run -d --name rbot -e WEBEX_TEAMS_ACCESS_TOKEN=YOUR_TOKEN rbot:v1
+$ export WEBEX_TEAMS_ACCESS_TOKEN=YOUR_TOKEN
+$ docker compose up -d
 ```
+
+- 다시 배포 할때
+
+```bash
+$ cd rbot
+$ export WEBEX_TEAMS_ACCESS_TOKEN=YOUR_TOKEN
+$ docker compose up --build --force-recreate -d
+```
+
 
 ## Reference
 - [Webex Teams API](https://developer.webex.com/docs/api/getting-started)
