@@ -42,7 +42,7 @@ class HelpCommand(Command):
         commandTexts = f"## {self.bot_name} 도움말  \n"
         commandTexts += f"> {self.bot_help_subtitle}  \n"
         commandTexts += f"### 문의  \n"
-        commandTexts += f"- 김병윤 과장  \n"
+        commandTexts += f"- devyoon91  \n"
         commandTexts += f"### 명령어 목록 \n"
         commandTexts += f"- `/docs` : 문서 모음\n"
         commandTexts += f"- `/help` : 도움말\n"

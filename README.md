@@ -1,6 +1,6 @@
-# R5 Rbot
+# Webex Bot
 
-> Cisco Webex R5 Team Bot
+> Cisco Webex Bot Demo
 
 ## Installation
 
@@ -9,7 +9,7 @@
 - 처음 빌드 할때
 
 ```bash
-$ git clone https://github.com/ecs-telecom/rbot.git
+$ git clone https://github.com/devyoon91/webex-bot-demo.git
 $ cd rbot
 $ export WEBEX_TEAMS_ACCESS_TOKEN=YOUR_TOKEN
 $ docker compose up -d
